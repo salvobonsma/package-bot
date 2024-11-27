@@ -4,7 +4,8 @@
     "description": "Package Tracking Discord Bot",
     "main": "PackageBot.js",
     "scripts": {
-        "build": "npm install && npx tsc && node ./dist/PackageBot.js",
+        "build": "npm install && npx tsc",
+        "start": "node ./dist/PackageBot.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -16,7 +17,6 @@
     "dependencies": {
         "discord.js": "^13.3.1",
         "dotenv": "^10.0.0",
-        "mongoose": "^5.13.13",
         "puppeteer": "^20.8.2"
     },
     "devDependencies": {
