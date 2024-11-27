@@ -4,7 +4,8 @@
     "description": "Package Tracking Discord Bot",
     "main": "PackageBot.js",
     "scripts": {
-        "build": "npm install && npx tsc",
+        "local_build": "npm install && npx tsc",
+        "build": "",
         "start": "node ./dist/PackageBot.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
