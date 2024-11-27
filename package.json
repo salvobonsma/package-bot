@@ -17,11 +17,11 @@
     "dependencies": {
         "discord.js": "^13.3.1",
         "dotenv": "^10.0.0",
+        "mongoose": "^8.8.3",
         "puppeteer": "^20.8.2"
     },
     "devDependencies": {
         "@types/jquery": "^3.5.6",
-        "@types/mongoose": "^5.11.97",
         "@types/node": "^16.4.13",
         "typescript": "^4.5.4"
     }
